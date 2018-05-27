@@ -87,12 +87,15 @@
   <ItemGroup>
     <Compile Include="Classes\generatore.cs" />
     <Compile Include="Classes\utility.cs" />
+    <Compile Include="Exceptions\ZmodException.cs" />
     <Compile Include="frm_zvface.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frm_zvface.Designer.cs">
       <DependentUpon>frm_zvface.cs</DependentUpon>
     </Compile>
+    <Compile Include="Models\SezOther.cs" />
+    <Compile Include="Models\SezGeneral.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frm_zvface.resx">
@@ -135,6 +138,7 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
